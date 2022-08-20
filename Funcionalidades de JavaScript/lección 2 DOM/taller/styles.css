@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+  border-top: 1.5px solid black;
+}
+
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  border: 1.5px solid black;
+}
